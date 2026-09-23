@@ -29,3 +29,5 @@ config :astarte_vmq_plugin, :queue_prefix, "test_data_queue_"
 config :astarte_vmq_plugin, :registry_mfa, {Astarte.VMQ.Plugin.MockVerne, :get_functions, []}
 
 config :astarte_vmq_plugin, :vernemq_api, MockVerneMQ.API
+
+config :astarte_vmq_plugin, :inject_custom_routes, false
